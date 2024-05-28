@@ -22,9 +22,9 @@ def get_status():
 def get_stats():
     """
     Retrieves the number of each object by type from the storage.
-    
+
     Utilizes the storage.count() method to get the count of each object type.
-    
+
     Returns:
         JSON response containing the counts of each object type.
     Example:
